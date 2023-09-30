@@ -1,0 +1,125 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #323137;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(206, 206, 227);
+    font-family: 'Poppins', sans-serif;
+}
+
+.weather-box {
+    /* width: 28vw; */
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    background: linear-gradient(135deg, #041d5b, #7b75a7);
+    max-width: 485px;
+}
+
+.search-icon {
+    width: 50px;
+    height: 50px;
+    background: #ade4dc;
+    border-radius: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.input-box {
+    flex-basis: 80%;
+}
+
+.input-box input {
+    width: 95%;
+    border-radius: 30px;
+    color: #555;
+    font-size: 1.2rem;
+    outline: none;
+    border: none;
+    background: #ebfffc;
+}
+
+.weather-icon img {
+    width: 130px;
+    height: 130px;
+}
+
+.weather-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.temp-box {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+}
+
+.city-name {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: -10px;
+    font-family: cursive;
+    font-size: 30px;
+    color: rgb(225, 175, 27);
+}
+
+.humidity-winspeed {
+    display: flex;
+}
+
+.humidity-box {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.winspeed-box {
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+}
+
+.humidity-box img {
+    width: 40px;
+    height: 40px;
+}
+
+.winspeed-box img {
+    width: 40px;
+    height: 40px;
+}
+
+.head-footer {
+    font-size: 1.2rem;
+}
+
+.temp {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 70px;
+    font-weight: 400;
+}
+
+.city-name {
+    font-size: 25px;
+    font-weight: 200;
+    margin-top: -10px;
+}
